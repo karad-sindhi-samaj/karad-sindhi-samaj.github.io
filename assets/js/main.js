@@ -17,5 +17,3 @@ if (menuButton && navigation) {
     });
   });
 }
-
-document.querySelector('#year').textContent = new Date().getFullYear();
