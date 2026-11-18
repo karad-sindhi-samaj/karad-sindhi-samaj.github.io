@@ -41,7 +41,8 @@ h2 { margin: 0 0 .8rem; font-size: 1.45rem; }
 .link-status { font-size: .95rem; }
 .small-note { font-size: .9rem; }
 .site-footer { margin-top: 2rem; background: var(--surface); border-top: 1px solid var(--line); }
-.footer-inner { min-height: 64px; display: flex; align-items: center; justify-content: space-between; gap: 1rem; color: var(--muted); font-size: .9rem; }
+.footer-inner { min-height: 64px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1rem; color: var(--muted); font-size: .9rem; }
+.footer-inner > p { flex-basis: 100%; margin: 0; }
 
 @media (max-width: 680px) {
   .header-inner { position: relative; min-height: 60px; flex-wrap: wrap; }
